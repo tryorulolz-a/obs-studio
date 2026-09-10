@@ -4,6 +4,7 @@
 
 #include <obs-frontend-api.h>
 #include <QJsonObject>
+#include <QString>
 #include <QWidget>
 
 class QCheckBox;
