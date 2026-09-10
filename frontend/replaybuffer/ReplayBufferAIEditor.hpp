@@ -2,6 +2,7 @@
 
 #ifdef _WIN32
 
+#include <algorithm>
 #include <obs-frontend-api.h>
 #include <QJsonObject>
 #include <QString>
