@@ -2,7 +2,8 @@
 
 #ifdef _WIN32
 
-#include <QPointer>
+#include <obs-frontend-api.h>
+#include <QJsonObject>
 #include <QWidget>
 
 class QCheckBox;
@@ -14,8 +15,6 @@ class QProcess;
 class QProgressBar;
 class QPushButton;
 class QTimer;
-
-enum obs_frontend_event : int;
 
 class ReplayBufferAIEditor final : public QWidget {
 public:
